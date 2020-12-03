@@ -81,7 +81,7 @@ a{
     margin: auto;
     font-size: 25px;
     padding: 10px 5px;
-    border-bottom: 3px solid #1976d2;
+    border-bottom: 3px solid #401577;
 }
 .experience-container{
     display: flex;
@@ -137,7 +137,7 @@ a{
     margin-bottom: 30px;
     font-size: 16px;
     border: 0px;
-    border-bottom: 3px solid #1976d2;
+    border-bottom: 3px solid #401577;
     box-shadow: 0px 0px 15px 3px rgba(15,15,15,0.5);
     font-family: 'Slabo 27px', serif;
 }
@@ -149,7 +149,7 @@ a{
      min-height: 125px;
      font-size: 16px;
      box-shadow: 0px 0px 15px 3px rgba(15, 15, 15, 0.5);
-     border-bottom: 3px solid #1976d2 ;
+     border-bottom: 3px solid #401577 ;
  }
 .contact-sec .section-header{
     color: black;
@@ -179,7 +179,21 @@ a{
 }
 .btn-e{
   
-   font-family: 'Slabo 27px', serif;
+    border: 2px solid #e4eaf0;
+    margin: auto;
+    margin-bottom: 30px;
+    width: 10em;
+    height: 2.4em;
+    margin-top: 30px;
+    font-family: 'Slabo 27px', serif;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color:#5f2ea0;
+    font-size: 16px;
+    transition-property: border, background-color;
+    transition-duration: 150ms;
+    transition-timing-function: ease-in-out;
     
 }
 
